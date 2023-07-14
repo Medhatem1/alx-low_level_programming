@@ -1,2 +1,2 @@
-#include <stdio.h>
+gcc -S -mism=intel $CFILE -o 'echo $CFILE | cut -d. -f1' .s
 
