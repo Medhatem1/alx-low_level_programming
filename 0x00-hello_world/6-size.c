@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * The main function prints the sizes of various types.
- * It returns 0 to indicate successful execution.
- */
+* main - Entry point
+*
+* Description: using sizeof to print the size of various types.
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 printf("Size of char: %zu byte(s)\n", sizeof(char));
